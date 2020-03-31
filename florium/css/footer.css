@@ -1,0 +1,92 @@
+
+/* ------footer------- */
+
+.footer-top {
+    background-color: #518C43;
+     
+}
+
+
+footer form label,
+footer ul li,
+footer ul li a {
+    color: #fff;
+    font-family: Robotolight;
+    font-size: 14px;
+    line-height: 22px;
+    list-style: none;
+}
+
+footer .foot-support ul li {
+    padding: 0 19px;
+
+}
+
+footer .foot-support ul li:first-child {
+    padding: 0;
+
+}
+
+.foot-support ul li a::hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+.subscribe,
+.foot-calls,
+.foot-support {
+    padding: 20px 0 0;
+   }
+
+
+
+.subscribe .form-control {
+    width: 240px;
+    box-shadow: 0 0 3px #eee;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    border-radius: 3px 0 0 3px;
+    padding-left: 15px;
+    border-color:  #fff;
+}
+
+.subscribe button {
+    width: 44px;
+    height: 40px;
+    background: #89c742 url(https://florium.ua/skin/frontend/default/florium_responsive/images/subscribe-arrow.png) no-repeat 50% 40%;
+    border-radius: 0 3px 3px 0;
+    border-color: #89c742;
+}
+
+.subscribe button:hover {
+    background-color: #F45B98;
+    border-color: #F45B98;
+}
+
+.payment-foot img {
+    width: 100%;
+    margin-left: -20px;
+    padding: 20px 0;
+    
+}
+
+.social-ico-foot {
+    width: 100%;
+    margin-left: -48px;
+    padding: 21px 0;
+    color: #000;
+}
+.footer-bottom p {
+    padding-top: 15px;
+    overflow: hidden;
+    color: #666;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.img-protected {
+    margin-top: 0;
+    padding-top:0;
+}

@@ -1,0 +1,268 @@
+
+/*   ------categories  --- */
+/* -----bulbs-------- */
+
+.category-popular-title h3 {
+    font-family: Robotoblack;
+    line-height: 37px;
+    margin: 20px 15px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.17em;
+}
+
+.category-popular-item {
+    position: relative;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.category-name {
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+    display: inline-block;
+
+
+}
+
+.category-name span {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+
+
+/* item-product-data  */
+.product-list-data {
+    border-bottom: 1px solid #dadada;
+    min-height: 640px;
+    
+}
+.item-product {
+    width: 100%;
+    margin-top: 10px;
+    padding: 2px;
+    border: 2px solid #fff;
+    height: 100%;
+}
+
+.item-product:hover {
+    border: 2px solid #dadada;
+
+}
+
+.img-product img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.product-sku-line {
+    font-size: 13px;
+    color: #494949;
+    margin-bottom: -12px;
+
+}
+
+.product-list-name a p {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px 0 0;
+    color: #000;
+    display: block;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.product-list-name a p:hover {
+    overflow: visible;
+    white-space: normal;
+    text-decoration: underline red;
+
+}
+
+
+.item-product-in .info-line {
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    margin: 0 0 5px;
+    color: #494949;
+}
+
+.rating {
+    float: left;
+    width: 100%;
+    line-height: 15px;
+}
+
+.stars {
+    float: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+
+.stars .rating-box {
+    background: url(https://florium.ua/skin/frontend/default/florium_responsive/images/stars.png) no-repeat 0 0;
+    cursor: pointer;
+    height: 19px;
+    width: 95px;
+}
+
+.stars .rating-stars_5 {
+    background-position: 0 -190px;
+}
+
+.rating span {
+    color: #999;
+    font-size: 11px;
+    letter-spacing: .44px;
+    position: relative;
+    margin-left: 10px;
+    top: -10px;
+}
+
+.rating span:before {
+    content: ' ';
+    display: inline-block;
+    background: url(https://florium.ua/skin/frontend/default/florium_responsive/images/comment.png) no-repeat;
+    width: 12px;
+    height: 12px;
+    top: 2px;
+    position: absolute;
+    left: -15px;
+}
+
+.stars .rating-box .disabled {
+    cursor: default;
+}
+
+.stars .rating-box {
+    background-color: yellow;
+    cursor: pointer;
+    height: 19px;
+    width: 95px;
+}
+
+.price-line {
+    padding: 10px 0;
+}
+
+.price-line .line-through {
+    color: #494949;
+    font-size: 15px;
+    letter-spacing: .52px;
+    margin-right: 10px;
+    text-decoration: line-through;
+
+
+}
+
+.price-line .final-price {
+    color: #d30e38;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .6px;
+
+}
+
+
+.item-product-in .button-line .btn-cart,
+.item-product-in .button-line .btn-cart-request {
+    width: 130px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 37px;
+    border-radius: 3px;
+}
+
+.item-product-in .button-line .btn-cart {
+    border: 1px solid #d30e38;
+    color: #d30e38;
+    background: #fff;
+}
+
+.item-product-in .button-line .btn-cart-request {
+    border: 1px solid #FBBF05;
+    color: #000;
+    background: #FBBF05;
+}
+
+.item-product-in .button-line .btn-cart:hover {
+    background: #d30e38;
+    color: #fff;
+}
+.item-product-in .button-line .btn-cart-request:hover {
+    background: #FBBF05;
+    color: #000;
+}
+
+/* --discount perentage  stiker-- */
+.item-product-in {
+    position: relative;
+}
+
+ .item-product-in .promo-container {
+    position: absolute;
+    left: -10px;
+    top: -7px;
+}
+.item-product-in .discount-precentage{
+    display: inline-block;
+    background: url(https://florium.ua/skin/frontend/default/florium_responsive/images/bg1.png) no-repeat;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    color: #fff;
+    font-family: Robotoblack;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.item-product-in .discount-precentage .first {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -.45px;
+    display: block;
+    margin-top: 12px;
+}
+.item-product-in .bestseller {
+    display: inline-block;
+    background: url(https://florium.ua/skin/frontend/default/florium_responsive/images/bg1.png) no-repeat;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    color: #fff;
+    font-family: Robotoblack;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.item-product-in .bestseller {
+    background: url(https://florium.ua/skin/frontend/default/florium_responsive/images/bg.png) no-repeat;
+}
+.item-product-in .bestseller .first {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 4.67px;
+    letter-spacing: -.38px;
+    display: block;
+    margin-top: 16px;
+}
+.item-product-in .bestseller .second {
+    font-family: Roboto;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 8.67px;
+}

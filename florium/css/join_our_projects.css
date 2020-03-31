@@ -1,0 +1,66 @@
+/* ----join-our-projects----  */
+
+.home-project {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    }
+    .home-project .box {
+        padding:0 20px 2%;
+          cursor: pointer;
+    }
+    
+    .home-description .title,
+    .home-description p,
+    .home-description li{
+        line-height: 26px;
+         text-align: justify;
+    }
+    .home-description .title{
+        font-size: x-large;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 20px;
+    }
+    .home-description p,
+    .home-description li{
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .home-description a{
+        color: #4B8ABF;
+    }
+    .home-description .buy-by-mail-link a{
+        color: #4B8ABF;
+    }
+    .home-description a:hover{
+        color:#8F7AB7;
+        text-decoration: underline;
+    }
+    
+    .home-description .title::before{
+        content: "";
+        display: block;
+        border-top: 1px solid #dadada;
+        padding-top: 30px;
+           
+    }
+    .home-description .title:first-child::before{
+        content: "";
+        border-top: 1px solid #fff;
+            
+    }
+    .home-description p:last-child::after{
+        content: "";
+        border-top: 1px solid #dadada;
+            display: block;
+            margin-top: 20px;
+    }
+    
+    .home-description img {
+           margin: 8px 10px;
+        height: 326px;
+        width: 355px;
+    }
+    
